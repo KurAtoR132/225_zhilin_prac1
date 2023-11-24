@@ -13,3 +13,5 @@ D:\Новая папка (2)\lifhik\KurAtoR132\225_zhilin_prac1\WpfApp1\WpfApp1\
 D:\Новая папка (2)\lifhik\KurAtoR132\225_zhilin_prac1\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
 D:\Новая папка (2)\lifhik\KurAtoR132\225_zhilin_prac1\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
 D:\Новая папка (2)\lifhik\KurAtoR132\225_zhilin_prac1\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+D:\Новая папка (2)\lifhik\KurAtoR132\225_zhilin_prac1\WpfApp1\WpfApp1\obj\Debug\Page2.g.cs
+D:\Новая папка (2)\lifhik\KurAtoR132\225_zhilin_prac1\WpfApp1\WpfApp1\obj\Debug\Page2.baml
