@@ -27,46 +27,22 @@ namespace WpfApp1
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            Answer.Clear();
-            double a, V, S;
-            if (!double.TryParse(NumberA.Text, out a))
-            {
-                MessageBox.Show("ТЫ ВООБЩЕ УМНЫЙ?");
-
-            }
-            V = Math.Pow(a, 3);
-            S = 6 * Math.Pow(a, 2);
-            Answer.Text += $"V = {V}\nS={S}";
+            MyFrame.Navigate(new Page1());
+           
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            MyFrame.Navigate(new Page2());
 
         }
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
-      
 
         }
 
         private void Button_Click_3(object sender, RoutedEventArgs e)
         {
-           
-          
-
-        }
-
-        private void Button_Click_4(object sender, RoutedEventArgs e)
-        {
-       
-
-        }
-
-        private void Button_Click_5(object sender, RoutedEventArgs e)
-        {
-           
 
         }
     }

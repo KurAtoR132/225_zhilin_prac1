@@ -16,33 +16,27 @@ using System.Windows.Shapes;
 namespace WpfApp1
 {
     /// <summary>
-    /// Логика взаимодействия для Page2.xaml
+    /// Логика взаимодействия для Page1.xaml
     /// </summary>
-    public partial class Page2 : Page
-    {
-        public Page2()
+    public partial class Page1 : Page
+    { 
+        public Page1()
         {
             InitializeComponent();
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            Answer.Clear();
+            double a, V, S;
+            if (!double.TryParse(NumberA.Text, out a))
+            {
+                MessageBox.Show("ТЫ ВООБЩЕ УМНЫЙ?");
 
-        }
-
-        private void Button_Click_1(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Button_Click_2(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Button_Click_3(object sender, RoutedEventArgs e)
-        {
-
+            }
+            V = Math.Pow(a, 3);
+            S = 6 * Math.Pow(a, 2);
+            Answer.Text += $"V = {V}\nS={S}";
         }
     }
 }
