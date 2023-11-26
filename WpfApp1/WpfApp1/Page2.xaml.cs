@@ -16,29 +16,31 @@ using System.Windows.Shapes;
 namespace WpfApp1
 {
     /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
+    /// Логика взаимодействия для Page2.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Page2 : Page
     {
-        public MainWindow()
+        public Page2()
         {
             InitializeComponent();
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            MyFrame.Navigate(new Page1());
-           
-        }
+            Answer.Clear();
+            double n, m ;
+            if (!double.TryParse(NumberN.Text, out n))
+            {
+                MessageBox.Show("ТЫ ВООБЩЕ УМНЫЙ?");
 
-        private void Button_Click_1(object sender, RoutedEventArgs e)
-        {
-            MyFrame.Navigate(new Page2());
-        }
+            }
+            
+            
+                  m = n / 60;
+                Answer.Text = m.ToString();
 
-        private void Button_Click_2(object sender, RoutedEventArgs e)
-        {
-            MyFrame.Navigate(new Page3());
+            
+
         }
     }
 }

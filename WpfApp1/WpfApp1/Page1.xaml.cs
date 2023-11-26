@@ -28,15 +28,26 @@ namespace WpfApp1
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             Answer.Clear();
-            double a, V, S;
+            double a, b, r;
             if (!double.TryParse(NumberA.Text, out a))
             {
                 MessageBox.Show("ТЫ ВООБЩЕ УМНЫЙ?");
 
             }
-            V = Math.Pow(a, 3);
-            S = 6 * Math.Pow(a, 2);
-            Answer.Text += $"V = {V}\nS={S}";
+            if (!double.TryParse(NumberB.Text, out b ))
+            {
+                MessageBox.Show("ТЫ ВООБЩЕ УМНЫЙ?");
+
+            }
+            if (a > b)
+            {
+                r = a / b ;
+                Answer.Text = r.ToString(%);
+
+            }
+            
+
+
         }
     }
 }

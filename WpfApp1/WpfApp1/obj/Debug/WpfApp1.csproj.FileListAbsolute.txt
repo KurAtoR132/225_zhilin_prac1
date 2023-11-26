@@ -49,3 +49,7 @@ C:\Users\zhili\Source\Repos\225_zhilin_prac1\WpfApp1\WpfApp1\obj\Debug\WpfApp1.c
 C:\Users\zhili\Source\Repos\225_zhilin_prac1\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
 C:\Users\zhili\Source\Repos\225_zhilin_prac1\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
 C:\Users\zhili\Source\Repos\225_zhilin_prac1\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+C:\Users\zhili\Source\Repos\225_zhilin_prac1\WpfApp1\WpfApp1\obj\Debug\Page2.g.cs
+C:\Users\zhili\Source\Repos\225_zhilin_prac1\WpfApp1\WpfApp1\obj\Debug\Page2.baml
+C:\Users\zhili\Source\Repos\225_zhilin_prac1\WpfApp1\WpfApp1\obj\Debug\Page3.g.cs
+C:\Users\zhili\Source\Repos\225_zhilin_prac1\WpfApp1\WpfApp1\obj\Debug\Page3.baml
